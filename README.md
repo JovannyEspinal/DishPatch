@@ -1,6 +1,6 @@
 # DishPatch
 
-A multi-agent food delivery assistant that accepts natural language queries, routes them to specialist agents, and returns a unified response — with semantic menu search, order tracking, and human-in-the-loop interrupts.
+A mocked out multi-agent food delivery assistant (via CLI) that accepts natural language queries, routes them to specialist agents, and returns a unified response — with semantic menu search, order tracking, and human-in-the-loop interrupts.
 
 Named after the dual meaning of *dispatch* (routing) and *dish* (food).
 
