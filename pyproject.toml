@@ -1,0 +1,20 @@
+[project]
+name = "dishpatch"
+version = "0.1.0"
+description = "Multi-agent food delivery assistant powered by LangGraph"
+requires-python = ">=3.13"
+dependencies = [
+    "langgraph",
+    "langchain",
+    "langchain-openai",
+    "langchain-chroma",
+    "chromadb",
+    "openai",
+    "python-dotenv",
+    "pydantic",
+    "pyyaml",
+]
+
+[project.scripts]
+dishpatch = "dishpatch.main:main"
+
